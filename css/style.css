@@ -1,0 +1,282 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+body{
+    background-color: #2a2a2e;
+    min-height: 100vh;
+}
+
+/* COMIENZO ESTILOS HEADER */
+li, a {
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: auto ;
+    background-color: #24252a ;
+    width: 100%;
+    height: 60px;  
+    
+}
+
+
+.logo {
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-right: auto;
+    margin-left: 20px;
+}
+.logo  a:hover {
+    color: #0088a9
+
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover {
+    color: #0088a9
+}
+/* COMIENZO ESTILOS MAIN */
+main{
+    background-color: #2a2a2e;
+    width: 100%;
+    min-height: 100vh;
+    
+   
+}
+/* COMIENZO ESTILOS FOOTER */
+footer{
+    height: 150px;
+    width: 100%;
+    background-color: #27282a;
+    margin-top: auto;
+    padding: 40px 0;
+}
+
+.social {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.social a {
+    font-size: 24px;
+    color: white;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+.social a:hover {
+    opacity: 0.9;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    opacity: 0.1;
+}
+
+
+
+/* GALERIA DE PROJECTOS */
+
+.section_projects {
+    padding: 4em;
+    height: 100vh;
+}
+.section_projects h2 {
+    font-size: 2em;
+    margin-bottom: 0;
+}
+.section_projects p {
+    font-size: 1.3em;
+    margin: 0 0 2em 0;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+
+}
+.gallery figure {
+    margin: 3px;
+    overflow: hidden;
+    position: relative;
+    background-color: gray;
+    transition: background-color 0.5s ;
+}
+.gallery figure img {
+    width: calc(100% + 60px);
+    opacity: 0.7;
+    transform: translate3d(0, -20px, 0) scale(1.12);
+    transition: all 0.5s;
+}
+
+.gallery figure figcaption {
+    position: absolute;
+    padding: 1em 2em;
+    top:0;
+    color: white;
+    text-align: center;
+}
+
+.section_projects figure figcaption div  h3 {
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: black;
+    display: inline-block;
+    padding: 0.5em 0.7em;
+}
+
+.additional {
+    opacity: 0;
+    transform: scale(1.3);
+    transition: all 0.5s;
+}
+
+.additional p {
+    margin-bottom: 20px;
+}
+
+
+.additional  a {
+    display: inline-block;
+    background-color: white;
+    text-transform: uppercase;
+    text-decoration: none ;
+    padding: 0.5em;
+    font-weight: bold;
+    color: black;
+    border-radius: 4px ;
+}
+
+figure:hover {
+    background-color: black;
+}
+
+figure:hover img {
+    transform:translate3d(0, 0, 0) scale(1);
+    opacity: 0.4;
+}
+
+figure:hover .additional {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* CONTACTAME  */
+
+.section_contactme form {
+    width: 450px;
+    margin: auto;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+.section_contactme label{
+    color: white;
+}
+
+.section_contactme form h2 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.section_contactme input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    font-size: 17px;
+    border: none;
+}
+
+.section_contactme textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+.section_contactme .boton {
+    background: #31384a;
+    color: white;
+    padding: 20px;
+}
+
+.section_contactme .boton:hover {
+    cursor: pointer;
+}
+
+
+/* MyCV */
+
+.cv img {
+    width:  600px;
+    height: 100vh;
+
+}
+.cv {
+    text-align: center;
+    height: 800px;
+
+}
+
+/* PAGINA PRINCIPAL */
+.yo .unpocodemi {
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-end;
+    padding: auto ;
+    text-align: center;
+    color: white;
+    opacity: 0.4;
+    
+}
+
+.yo .unpocodemi h2 {
+    margin-right: auto;
+    margin-left: 30px;
+    text-transform: uppercase;
+}
+
+.yo .unpocodemi p {
+    margin-right: 100px;
+    width: 500px;
+    height: 300px;
+}
+
+
+/* Sobre MI */
+
+.aboutme img {
+    width: 100%;
+    height: 100vh;
+}
+
+
+
