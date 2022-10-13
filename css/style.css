@@ -390,3 +390,23 @@ figure:hover .additional {
     }
         
 }
+
+@media (max-width:560px){
+    .area-texto {
+        font-size: 35px;
+    }
+
+}
+
+@media (max-width:487px){
+    .area-texto {
+        font-size: 29px;
+    }
+
+}
+@media (max-width:403px){
+    .area-texto {
+        font-size: 25px;
+    }
+
+}
