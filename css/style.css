@@ -9,42 +9,8 @@ body{
     background-color: #2a2a2e;
     min-height: 100vh;
 }
-
-/* COMIENZO ESTILOS HEADER */
-li, a {
-    font-weight: 500;
-    font-size: 16px;
-    color: #edf0f1;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-
-
-
-.logo {
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-    margin-right: auto;
-    margin-left: 20px;
-}
-.logo  a:hover {
-    color: #0088a9
-
-}
-
-.nav_links li {
-    display: inline-block;
-    padding: 0 20px;
-}
-
-.nav_links li a {
-    transition: all 0.3s ease 0s;
-}
-.nav_links li a:hover {
-    color: #0088a9
-}
 /* COMIENZO ESTILOS MAIN */
+
 main{
     background-color: #2a2a2e;
     width: 100%;
@@ -118,6 +84,9 @@ footer{
 
 
 /* GALERIA DE PROJECTOS */
+.section_projects h2 {
+    color: white;
+}
 
 .section_projects {
     padding: 4em;
@@ -209,7 +178,7 @@ figure:hover .additional {
 .section_contactme form {
     width: 450px;
     margin: auto;
-    padding: 10px 20px;
+    padding: 70px 20px;
     margin-top: 20px;
 }
 .section_contactme label{
@@ -383,6 +352,9 @@ figure:hover .additional {
         font-size: 16px;
         
     }
+    .area-texto {
+        font-size: 55px;
+    }
 
 }
 
@@ -394,6 +366,9 @@ figure:hover .additional {
         font-size: 40px;
     }
     .gallery {
-        grid-template-columns: repeat(1, auto);
+        grid-template-columns: repeat(1, 1);
+    }
+    .section_contactme form {
+        width: 320px;
     }
 }
