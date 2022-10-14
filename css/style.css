@@ -352,10 +352,6 @@ figure:hover .additional {
         font-size: 16px;
         
     }
-    .area-texto {
-        font-size: 55px;
-    }
-
 }
 
 @media (max-width:600px){
@@ -393,20 +389,55 @@ figure:hover .additional {
 
 @media (max-width:560px){
     .area-texto {
-        font-size: 35px;
+        font-size: 23px;
     }
 
 }
 
 @media (max-width:487px){
     .area-texto {
-        font-size: 29px;
+        font-size: 23px;
     }
 
 }
 @media (max-width:403px){
     .area-texto {
-        font-size: 25px;
+        font-size: 23px;
     }
 
+}
+
+@media (max-width:1471px){
+    .area-texto {
+        font-size: 50px;
+    }
+
+}
+
+@media (max-width:1231px) {
+    .area-texto {
+        font-size: 45px;
+    }
+}
+
+@media (max-width:1109px) {
+    .area-texto {
+        font-size: 35px;
+    }
+}
+
+@media (max-width:1109px) {
+    .area-texto {
+        font-size: 35px;
+    }
+}
+@media (max-width:865px) {
+    .area-texto {
+        font-size: 30px;
+    }
+}
+@media (max-width:743px) {
+    .area-texto {
+        font-size: 23px;
+    }
 }
