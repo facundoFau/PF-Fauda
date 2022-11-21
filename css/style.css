@@ -355,34 +355,20 @@ figure:hover .additional {
 }
 
 @media (max-width:600px){
+     .gallery {
+        grid-template-columns: repeat(1, auto);
+    }
     .banner-texto p {
         display: none;
     }
     .area-texto {
         font-size: 40px;
     }
-    .gallery {
-        grid-template-columns: repeat(1, 1);
-    }
     .section_contactme form {
         width: 320px;
     }
-    .section_projects h2 {
-        font-size: 10px;
-       
-    }
-    .section_projects p {
-        font-size: 10px;
-    }
-    .section_projects figure figcaption div  h3 {
-        font-size: 10px;
-        
-    }
-    .additional  a {
-        font-size: 10px;
-    }
-    .additional p {
-        margin-bottom: 2px;
+    .additional a {
+        font-size: 6px;
     }
         
 }
@@ -411,6 +397,14 @@ figure:hover .additional {
     .area-texto {
         font-size: 50px;
     }
+    .section_projects h2 {
+        font-size: 16px;
+       
+    }
+    .section_projects p {
+        font-size: 16px;
+        
+    }
 
 }
 
@@ -418,11 +412,33 @@ figure:hover .additional {
     .area-texto {
         font-size: 45px;
     }
+    .section_projects h2 {
+        font-size: 10px;
+       
+    }
+    .section_projects p {
+        font-size: 10px;
+        
+    }
+    .additional a {
+        font-size: 10px;
+    }
 }
 
 @media (max-width:1109px) {
     .area-texto {
         font-size: 35px;
+    }
+    .section_projects h2 {
+        font-size: 10px;
+       
+    }
+    .section_projects p {
+        font-size: 10px;
+        
+    }
+    .additional a {
+        font-size: 10px;
     }
 }
 
