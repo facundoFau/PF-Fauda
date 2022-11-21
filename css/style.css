@@ -258,11 +258,59 @@ figure:hover .additional {
 
 /* Sobre MI */
 
-.aboutme img {
+.aboutme  {
     width: 100%;
-    height: 100vh;
+    padding: 300px 0px;
 }
-
+.aboutme img {
+    height: 470px;
+    width: 430px;
+}
+.texto-about {
+    width: 550px;
+}
+.info {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex ;
+    align-items: center;
+    justify-content: space-around;
+}
+.texto-about h2 {
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.texto-about h5 {
+    color:#0088a9;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.texto-about p {
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.aboutme button {
+    background-color: #0088a9;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px ;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+.aboutme button:hover {
+    background-color: transparent;
+    border: 2px solid #0088a9 ;
+    cursor: pointer;
+}
 /* Animacion del texto home */
 
 .area-texto {
@@ -338,6 +386,10 @@ figure:hover .additional {
         font-size: 12px;
         
     }
+    .aboutme img {
+        height: 180px;
+        width: 180px;
+    }
 
 }
 @media (max-width:800px){
@@ -376,6 +428,10 @@ figure:hover .additional {
 @media (max-width:560px){
     .area-texto {
         font-size: 23px;
+    }
+    .aboutme img {
+        height: 60px;
+        width: 60px;
     }
 
 }
@@ -440,6 +496,11 @@ figure:hover .additional {
     .additional a {
         font-size: 10px;
     }
+    .aboutme img {
+        height: 300px;
+        width: 270px;
+    }
+
 }
 
 @media (max-width:1109px) {
