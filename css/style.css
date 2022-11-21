@@ -298,13 +298,17 @@ figure:hover .additional {
 }
 .aboutme button {
     background-color: #0088a9;
-    color: white;
     text-decoration: none;
     border: 2px solid transparent;
     font-weight: bold;
     padding: 13px 30px ;
     border-radius: 30px;
     transition: 0.4s;
+}
+.aboutme  a {
+    text-decoration: none;
+    color: white;
+
 }
 .aboutme button:hover {
     background-color: transparent;
